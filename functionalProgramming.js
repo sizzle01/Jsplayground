@@ -21,7 +21,7 @@ consoleStyler('#1d5c63', '#ede6db', '40px', 'Congrats!');
 celebrateStyler('birthday');
 
 function styleAndCelebrate(color, background, fontSize, txt, reason){
-    consoleStyler(color, background, fontSize, txt);  
+    consoleStyler(color, background, fontSize, txt);
     celebrateStyler(reason);
 }
 styleAndCelebrate('ef7c8e', 'fae8e0', '30px', 'You made it!', 'champions');
